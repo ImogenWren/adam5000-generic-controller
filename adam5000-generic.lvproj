@@ -41,12 +41,18 @@
 		<Item Name="test-vi" Type="Folder">
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
 		</Item>
+		<Item Name="adam-5000-serial-settings.ctl" Type="VI" URL="../controls/adam-5000-serial-settings.ctl"/>
+		<Item Name="adam-module-select-tab.ctl" Type="VI" URL="../controls/adam-module-select-tab.ctl"/>
 		<Item Name="adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/adam-write-&amp;-check-response.vi"/>
+		<Item Name="analog-input-cluster.ctl" Type="VI" URL="../controls/analog-input-cluster.ctl"/>
+		<Item Name="analog-output-cluster.ctl" Type="VI" URL="../controls/analog-output-cluster.ctl"/>
+		<Item Name="digitial-input-cluster.ctl" Type="VI" URL="../controls/digitial-input-cluster.ctl"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="read-&amp;-parse-visa.vi" Type="VI" URL="../sub-vi/read-&amp;-parse-visa.vi"/>
 		<Item Name="setup-reflux.vi" Type="VI" URL="../sub-vi/setup-reflux.vi"/>
 		<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
+		<Item Name="thermocouple-input-cluster.ctl" Type="VI" URL="../controls/thermocouple-input-cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
