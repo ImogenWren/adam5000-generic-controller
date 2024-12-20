@@ -12,11 +12,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
-			<Item Name="analog-data-cluster.ctl" Type="VI" URL="../controls/analog-data-cluster.ctl"/>
+			<Item Name="adam-5000-serial-settings.ctl" Type="VI" URL="../controls/adam-5000-serial-settings.ctl"/>
+			<Item Name="adam-module-select-tab.ctl" Type="VI" URL="../controls/adam-module-select-tab.ctl"/>
+			<Item Name="analog-input-cluster.ctl" Type="VI" URL="../controls/analog-input-cluster.ctl"/>
+			<Item Name="analog-output-cluster.ctl" Type="VI" URL="../controls/analog-output-cluster.ctl"/>
 			<Item Name="command-enum.ctl" Type="VI" URL="../controls/command-enum.ctl"/>
 			<Item Name="digital-output-cluster.ctl" Type="VI" URL="../controls/digital-output-cluster.ctl"/>
+			<Item Name="digitial-input-cluster.ctl" Type="VI" URL="../controls/digitial-input-cluster.ctl"/>
 			<Item Name="state-enum.ctl" Type="VI" URL="../controls/state-enum.ctl"/>
-			<Item Name="thermocouple-data-cluster.ctl" Type="VI" URL="../controls/thermocouple-data-cluster.ctl"/>
+			<Item Name="thermocouple-input-cluster.ctl" Type="VI" URL="../controls/thermocouple-input-cluster.ctl"/>
 		</Item>
 		<Item Name="sub-vi" Type="Folder">
 			<Item Name="sub-sub-vi" Type="Folder">
@@ -30,29 +34,22 @@
 			<Item Name="adam-5000-set-DO.vi" Type="VI" URL="../sub-vi/adam-5000-set-DO.vi"/>
 			<Item Name="adam-sample-analog.vi" Type="VI" URL="../sub-vi/adam-sample-analog.vi"/>
 			<Item Name="adam-sample-thermocouples.vi" Type="VI" URL="../sub-vi/adam-sample-thermocouples.vi"/>
+			<Item Name="adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/adam-write-&amp;-check-response.vi"/>
 			<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
 			<Item Name="DO-handler.vi" Type="VI" URL="../sub-vi/DO-handler.vi"/>
 			<Item Name="duty-cycle-oscillator.vi" Type="VI" URL="../sub-vi/duty-cycle-oscillator.vi"/>
 			<Item Name="parse-AI-string.vi" Type="VI" URL="../sub-vi/parse-AI-string.vi"/>
 			<Item Name="parse-temp-string.vi" Type="VI" URL="../sub-vi/parse-temp-string.vi"/>
 			<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../sub-vi/period-duty-time-high-low.vi"/>
+			<Item Name="read-&amp;-parse-visa.vi" Type="VI" URL="../sub-vi/read-&amp;-parse-visa.vi"/>
 			<Item Name="scale-percent-to-mA.vi" Type="VI" URL="../sub-vi/scale-percent-to-mA.vi"/>
 		</Item>
 		<Item Name="test-vi" Type="Folder">
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
+			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
-		<Item Name="adam-5000-serial-settings.ctl" Type="VI" URL="../controls/adam-5000-serial-settings.ctl"/>
-		<Item Name="adam-module-select-tab.ctl" Type="VI" URL="../controls/adam-module-select-tab.ctl"/>
-		<Item Name="adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/adam-write-&amp;-check-response.vi"/>
-		<Item Name="analog-input-cluster.ctl" Type="VI" URL="../controls/analog-input-cluster.ctl"/>
-		<Item Name="analog-output-cluster.ctl" Type="VI" URL="../controls/analog-output-cluster.ctl"/>
-		<Item Name="digitial-input-cluster.ctl" Type="VI" URL="../controls/digitial-input-cluster.ctl"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="read-&amp;-parse-visa.vi" Type="VI" URL="../sub-vi/read-&amp;-parse-visa.vi"/>
-		<Item Name="setup-reflux.vi" Type="VI" URL="../sub-vi/setup-reflux.vi"/>
-		<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
-		<Item Name="thermocouple-input-cluster.ctl" Type="VI" URL="../controls/thermocouple-input-cluster.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
@@ -63,6 +60,10 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="analog-data-cluster.ctl" Type="VI" URL="../controls/analog-data-cluster.ctl"/>
+			<Item Name="analog-data-cluster.ctl" Type="VI" URL="../controls/depreciated/analog-data-cluster.ctl"/>
+			<Item Name="thermocouple-data-cluster.ctl" Type="VI" URL="../controls/thermocouple-data-cluster.ctl"/>
+			<Item Name="thermocouple-data-cluster.ctl" Type="VI" URL="../controls/depreciated/thermocouple-data-cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="main" Type="EXE">
