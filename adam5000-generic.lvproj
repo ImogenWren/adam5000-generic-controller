@@ -35,6 +35,7 @@
 			<Item Name="adam-sample-analog.vi" Type="VI" URL="../sub-vi/adam-sample-analog.vi"/>
 			<Item Name="adam-sample-thermocouples.vi" Type="VI" URL="../sub-vi/adam-sample-thermocouples.vi"/>
 			<Item Name="adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/adam-write-&amp;-check-response.vi"/>
+			<Item Name="AI-handler.vi" Type="VI" URL="../sub-vi/AI-handler.vi"/>
 			<Item Name="AO-handler.vi" Type="VI" URL="../sub-vi/AO-handler.vi"/>
 			<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
 			<Item Name="DO-handler.vi" Type="VI" URL="../sub-vi/DO-handler.vi"/>
