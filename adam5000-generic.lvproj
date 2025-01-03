@@ -38,6 +38,7 @@
 			<Item Name="AI-handler.vi" Type="VI" URL="../sub-vi/AI-handler.vi"/>
 			<Item Name="AO-handler.vi" Type="VI" URL="../sub-vi/AO-handler.vi"/>
 			<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
+			<Item Name="DI-handler.vi" Type="VI" URL="../sub-vi/DI-handler.vi"/>
 			<Item Name="DO-handler.vi" Type="VI" URL="../sub-vi/DO-handler.vi"/>
 			<Item Name="duty-cycle-oscillator.vi" Type="VI" URL="../sub-vi/duty-cycle-oscillator.vi"/>
 			<Item Name="parse-AI-string.vi" Type="VI" URL="../sub-vi/parse-AI-string.vi"/>
@@ -45,11 +46,18 @@
 			<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../sub-vi/period-duty-time-high-low.vi"/>
 			<Item Name="read-&amp;-parse-visa.vi" Type="VI" URL="../sub-vi/read-&amp;-parse-visa.vi"/>
 			<Item Name="scale-percent-to-mA.vi" Type="VI" URL="../sub-vi/scale-percent-to-mA.vi"/>
+			<Item Name="TC-handler.vi" Type="VI" URL="../sub-vi/TC-handler.vi"/>
 		</Item>
 		<Item Name="test-vi" Type="Folder">
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
+		<Item Name="adam-ALL-IOs-panel.vi" Type="VI" URL="../adam-IO-VI/adam-ALL-IOs-panel.vi"/>
+		<Item Name="adam-analog-input.vi" Type="VI" URL="../adam-IO-VI/adam-analog-input.vi"/>
+		<Item Name="adam-analog-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-analog-outputs.vi"/>
+		<Item Name="adam-digital-inputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-inputs.vi"/>
+		<Item Name="adam-digital-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-outputs.vi"/>
+		<Item Name="adam-thermocouple-input.vi" Type="VI" URL="../adam-IO-VI/adam-thermocouple-input.vi"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
