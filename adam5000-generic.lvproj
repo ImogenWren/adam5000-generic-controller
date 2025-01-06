@@ -52,6 +52,10 @@
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
+		<Item Name="adam-5000-all-chassis-data.ctl" Type="VI" URL="../controls/adam-5000-all-chassis-data.ctl"/>
+		<Item Name="adam-5000-all-module-datas.ctl" Type="VI" URL="../controls/adam-5000-all-module-datas.ctl"/>
+		<Item Name="adam-5000-chassis-cmd-ack.ctl" Type="VI" URL="../controls/adam-5000-chassis-cmd-ack.ctl"/>
+		<Item Name="adam-5000-module-cmd-ack.ctl" Type="VI" URL="../controls/adam-5000-module-cmd-ack.ctl"/>
 		<Item Name="adam-ALL-IOs-panel.vi" Type="VI" URL="../adam-IO-VI/adam-ALL-IOs-panel.vi"/>
 		<Item Name="adam-analog-input.vi" Type="VI" URL="../adam-IO-VI/adam-analog-input.vi"/>
 		<Item Name="adam-analog-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-analog-outputs.vi"/>
@@ -59,7 +63,7 @@
 		<Item Name="adam-digital-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-outputs.vi"/>
 		<Item Name="adam-thermocouple-input.vi" Type="VI" URL="../adam-IO-VI/adam-thermocouple-input.vi"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="main-for-loop.vi" Type="VI" URL="../main-for-loop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
@@ -105,7 +109,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{1B1AD4D8-6FE6-411A-8224-F479E6D1E8C4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main-for-loop.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -147,7 +151,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{B21BEDEA-5F85-4800-BF3A-09C975EC3B8E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main-for-loop.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
