@@ -62,8 +62,10 @@
 		<Item Name="adam-digital-inputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-inputs.vi"/>
 		<Item Name="adam-digital-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-outputs.vi"/>
 		<Item Name="adam-thermocouple-input.vi" Type="VI" URL="../adam-IO-VI/adam-thermocouple-input.vi"/>
+		<Item Name="cmd-ack-rebundler.vi" Type="VI" URL="../sub-vi/cmd-ack-rebundler.vi"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
-		<Item Name="main-for-loop.vi" Type="VI" URL="../main-for-loop.vi"/>
+		<Item Name="main-sequential.vi" Type="VI" URL="../main-sequential.vi"/>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
@@ -109,7 +111,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{1B1AD4D8-6FE6-411A-8224-F479E6D1E8C4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main-for-loop.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main-sequential.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -151,7 +153,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{B21BEDEA-5F85-4800-BF3A-09C975EC3B8E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main-for-loop.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main-sequential.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
