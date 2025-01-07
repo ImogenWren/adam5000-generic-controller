@@ -12,6 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
+			<Item Name="adam-5000-all-chassis-data.ctl" Type="VI" URL="../controls/adam-5000-all-chassis-data.ctl"/>
+			<Item Name="adam-5000-all-module-datas.ctl" Type="VI" URL="../controls/adam-5000-all-module-datas.ctl"/>
+			<Item Name="adam-5000-chassis-cmd-ack.ctl" Type="VI" URL="../controls/adam-5000-chassis-cmd-ack.ctl"/>
+			<Item Name="adam-5000-module-cmd-ack.ctl" Type="VI" URL="../controls/adam-5000-module-cmd-ack.ctl"/>
 			<Item Name="adam-5000-serial-settings.ctl" Type="VI" URL="../controls/adam-5000-serial-settings.ctl"/>
 			<Item Name="adam-module-select-tab.ctl" Type="VI" URL="../controls/adam-module-select-tab.ctl"/>
 			<Item Name="analog-input-cluster.ctl" Type="VI" URL="../controls/analog-input-cluster.ctl"/>
@@ -34,10 +38,10 @@
 			<Item Name="adam-5000-set-DO.vi" Type="VI" URL="../sub-vi/adam-5000-set-DO.vi"/>
 			<Item Name="adam-sample-analog.vi" Type="VI" URL="../sub-vi/adam-sample-analog.vi"/>
 			<Item Name="adam-sample-thermocouples.vi" Type="VI" URL="../sub-vi/adam-sample-thermocouples.vi"/>
-			<Item Name="adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/adam-write-&amp;-check-response.vi"/>
 			<Item Name="AI-handler.vi" Type="VI" URL="../sub-vi/AI-handler.vi"/>
 			<Item Name="AO-handler.vi" Type="VI" URL="../sub-vi/AO-handler.vi"/>
 			<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
+			<Item Name="cmd-ack-rebundler.vi" Type="VI" URL="../sub-vi/cmd-ack-rebundler.vi"/>
 			<Item Name="DI-handler.vi" Type="VI" URL="../sub-vi/DI-handler.vi"/>
 			<Item Name="DO-handler.vi" Type="VI" URL="../sub-vi/DO-handler.vi"/>
 			<Item Name="duty-cycle-oscillator.vi" Type="VI" URL="../sub-vi/duty-cycle-oscillator.vi"/>
@@ -47,22 +51,18 @@
 			<Item Name="read-&amp;-parse-visa.vi" Type="VI" URL="../sub-vi/read-&amp;-parse-visa.vi"/>
 			<Item Name="scale-percent-to-mA.vi" Type="VI" URL="../sub-vi/scale-percent-to-mA.vi"/>
 			<Item Name="TC-handler.vi" Type="VI" URL="../sub-vi/TC-handler.vi"/>
+			<Item Name="V2-adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/V2-adam-write-&amp;-check-response.vi"/>
 		</Item>
 		<Item Name="test-vi" Type="Folder">
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
-		<Item Name="adam-5000-all-chassis-data.ctl" Type="VI" URL="../controls/adam-5000-all-chassis-data.ctl"/>
-		<Item Name="adam-5000-all-module-datas.ctl" Type="VI" URL="../controls/adam-5000-all-module-datas.ctl"/>
-		<Item Name="adam-5000-chassis-cmd-ack.ctl" Type="VI" URL="../controls/adam-5000-chassis-cmd-ack.ctl"/>
-		<Item Name="adam-5000-module-cmd-ack.ctl" Type="VI" URL="../controls/adam-5000-module-cmd-ack.ctl"/>
 		<Item Name="adam-ALL-IOs-panel.vi" Type="VI" URL="../adam-IO-VI/adam-ALL-IOs-panel.vi"/>
 		<Item Name="adam-analog-input.vi" Type="VI" URL="../adam-IO-VI/adam-analog-input.vi"/>
 		<Item Name="adam-analog-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-analog-outputs.vi"/>
 		<Item Name="adam-digital-inputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-inputs.vi"/>
 		<Item Name="adam-digital-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-outputs.vi"/>
 		<Item Name="adam-thermocouple-input.vi" Type="VI" URL="../adam-IO-VI/adam-thermocouple-input.vi"/>
-		<Item Name="cmd-ack-rebundler.vi" Type="VI" URL="../sub-vi/cmd-ack-rebundler.vi"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
 		<Item Name="main-sequential.vi" Type="VI" URL="../main-sequential.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
