@@ -51,12 +51,13 @@
 			<Item Name="read-&amp;-parse-visa.vi" Type="VI" URL="../sub-vi/read-&amp;-parse-visa.vi"/>
 			<Item Name="scale-percent-to-mA.vi" Type="VI" URL="../sub-vi/scale-percent-to-mA.vi"/>
 			<Item Name="TC-handler.vi" Type="VI" URL="../sub-vi/TC-handler.vi"/>
-			<Item Name="V2-adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/V2-adam-write-&amp;-check-response.vi"/>
+			<Item Name="V3-adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/V3-adam-write-&amp;-check-response.vi"/>
 		</Item>
 		<Item Name="test-vi" Type="Folder">
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
+		<Item Name="adam-5000-cmd-response.ctl" Type="VI" URL="../controls/adam-5000-cmd-response.ctl"/>
 		<Item Name="adam-ALL-IOs-panel.vi" Type="VI" URL="../adam-IO-VI/adam-ALL-IOs-panel.vi"/>
 		<Item Name="adam-analog-input.vi" Type="VI" URL="../adam-IO-VI/adam-analog-input.vi"/>
 		<Item Name="adam-analog-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-analog-outputs.vi"/>
@@ -64,6 +65,8 @@
 		<Item Name="adam-digital-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-outputs.vi"/>
 		<Item Name="adam-thermocouple-input.vi" Type="VI" URL="../adam-IO-VI/adam-thermocouple-input.vi"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
+		<Item Name="main-for-loop-V2.vi" Type="VI" URL="../main-for-loop-V2.vi"/>
+		<Item Name="main-for-loop.vi" Type="VI" URL="../main-for-loop.vi"/>
 		<Item Name="main-sequential.vi" Type="VI" URL="../main-sequential.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -76,6 +79,7 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/adam-write-&amp;-check-response.vi"/>
 			<Item Name="analog-data-cluster.ctl" Type="VI" URL="../controls/analog-data-cluster.ctl"/>
 			<Item Name="analog-data-cluster.ctl" Type="VI" URL="../controls/depreciated/analog-data-cluster.ctl"/>
 			<Item Name="thermocouple-data-cluster.ctl" Type="VI" URL="../controls/thermocouple-data-cluster.ctl"/>
