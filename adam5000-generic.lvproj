@@ -65,6 +65,7 @@
 		<Item Name="adam-digital-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-outputs.vi"/>
 		<Item Name="adam-thermocouple-input.vi" Type="VI" URL="../adam-IO-VI/adam-thermocouple-input.vi"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
+		<Item Name="main-dev.vi" Type="VI" URL="../main-dev.vi"/>
 		<Item Name="main-for-loop-V2.vi" Type="VI" URL="../main-for-loop-V2.vi"/>
 		<Item Name="main-for-loop.vi" Type="VI" URL="../main-for-loop.vi"/>
 		<Item Name="main-sequential.vi" Type="VI" URL="../main-sequential.vi"/>
