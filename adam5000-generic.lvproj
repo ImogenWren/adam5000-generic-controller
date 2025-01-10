@@ -57,7 +57,10 @@
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
+		<Item Name="adam-5000-AO-user-input.ctl" Type="VI" URL="../controls/adam-5000-AO-user-input.ctl"/>
+		<Item Name="adam-5000-chassis-module-types.ctl" Type="VI" URL="../controls/adam-5000-chassis-module-types.ctl"/>
 		<Item Name="adam-5000-cmd-response.ctl" Type="VI" URL="../controls/adam-5000-cmd-response.ctl"/>
+		<Item Name="adam-5000-DO-user-input.ctl" Type="VI" URL="../controls/adam-5000-DO-user-input.ctl"/>
 		<Item Name="adam-ALL-IOs-panel.vi" Type="VI" URL="../adam-IO-VI/adam-ALL-IOs-panel.vi"/>
 		<Item Name="adam-analog-input.vi" Type="VI" URL="../adam-IO-VI/adam-analog-input.vi"/>
 		<Item Name="adam-analog-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-analog-outputs.vi"/>
