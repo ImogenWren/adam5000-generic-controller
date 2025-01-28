@@ -12,6 +12,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="adam5000-controls" Type="Folder">
+			<Item Name="adam-5000-AO-user-input.ctl" Type="VI" URL="../controls/adam-5000-AO-user-input.ctl"/>
+			<Item Name="adam-5000-chassis-module-types.ctl" Type="VI" URL="../controls/adam-5000-chassis-module-types.ctl"/>
+			<Item Name="adam-5000-cmd-response.ctl" Type="VI" URL="../controls/adam-5000-cmd-response.ctl"/>
+			<Item Name="adam-5000-DO-user-input.ctl" Type="VI" URL="../controls/adam-5000-DO-user-input.ctl"/>
+			<Item Name="adam-5000-status-indicator-references.ctl" Type="VI" URL="../controls/adam-5000-status-indicator-references.ctl"/>
+		</Item>
 		<Item Name="controls" Type="Folder">
 			<Item Name="adam-5000-all-chassis-data.ctl" Type="VI" URL="../controls/adam-5000-all-chassis-data.ctl"/>
 			<Item Name="adam-5000-all-module-datas.ctl" Type="VI" URL="../controls/adam-5000-all-module-datas.ctl"/>
@@ -58,18 +65,15 @@
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
-		<Item Name="adam-5000-AO-user-input.ctl" Type="VI" URL="../controls/adam-5000-AO-user-input.ctl"/>
-		<Item Name="adam-5000-chassis-module-types.ctl" Type="VI" URL="../controls/adam-5000-chassis-module-types.ctl"/>
-		<Item Name="adam-5000-cmd-response.ctl" Type="VI" URL="../controls/adam-5000-cmd-response.ctl"/>
-		<Item Name="adam-5000-DO-user-input.ctl" Type="VI" URL="../controls/adam-5000-DO-user-input.ctl"/>
-		<Item Name="adam-5000-status-indicator-references.ctl" Type="VI" URL="../controls/adam-5000-status-indicator-references.ctl"/>
 		<Item Name="adam-ALL-IOs-panel.vi" Type="VI" URL="../adam-IO-VI/adam-ALL-IOs-panel.vi"/>
 		<Item Name="adam-analog-input.vi" Type="VI" URL="../adam-IO-VI/adam-analog-input.vi"/>
 		<Item Name="adam-analog-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-analog-outputs.vi"/>
 		<Item Name="adam-digital-inputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-inputs.vi"/>
 		<Item Name="adam-digital-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-outputs.vi"/>
 		<Item Name="adam-thermocouple-input.vi" Type="VI" URL="../adam-IO-VI/adam-thermocouple-input.vi"/>
+		<Item Name="adam5000-chassis-VI.vi" Type="VI" URL="../adam-IO-VI/adam5000-chassis-VI.vi"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
+		<Item Name="main-all-channels.vi" Type="VI" URL="../main-all-channels.vi"/>
 		<Item Name="main-dev.vi" Type="VI" URL="../main-dev.vi"/>
 		<Item Name="single-channel.vi" Type="VI" URL="../single-channel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
