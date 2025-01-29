@@ -12,6 +12,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="adam-high-level-VIs" Type="Folder">
+			<Item Name="adam5000-chassis-engineering-VI.vi" Type="VI" URL="../adam-IO-VI/adam5000-chassis-engineering-VI.vi"/>
+			<Item Name="adam5000-chassis-main.vi" Type="VI" URL="../adam-IO-VI/adam5000-chassis-main.vi"/>
+			<Item Name="adam5000-close-all.vi" Type="VI" URL="../adam-IO-VI/adam5000-close-all.vi"/>
+			<Item Name="adam5000-setup-visa.vi" Type="VI" URL="../adam-IO-VI/adam5000-setup-visa.vi"/>
+			<Item Name="adam5000-stop-visa.vi" Type="VI" URL="../adam-IO-VI/adam5000-stop-visa.vi"/>
+		</Item>
 		<Item Name="adam-module-controls" Type="Folder">
 			<Item Name="analog-input-cluster.ctl" Type="VI" URL="../controls/analog-input-cluster.ctl"/>
 			<Item Name="analog-output-cluster.ctl" Type="VI" URL="../controls/analog-output-cluster.ctl"/>
@@ -61,6 +68,7 @@
 			<Item Name="utility" Type="Folder">
 				<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
 				<Item Name="duty-cycle-oscillator.vi" Type="VI" URL="../sub-vi/duty-cycle-oscillator.vi"/>
+				<Item Name="loop-timer.vi" Type="VI" URL="../sub-vi/loop-timer.vi"/>
 				<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../sub-vi/period-duty-time-high-low.vi"/>
 				<Item Name="scale-percent-to-mA.vi" Type="VI" URL="../sub-vi/scale-percent-to-mA.vi"/>
 			</Item>
@@ -76,12 +84,10 @@
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
-		<Item Name="adam5000-chassis-engineering-VI.vi" Type="VI" URL="../adam-IO-VI/adam5000-chassis-engineering-VI.vi"/>
-		<Item Name="adam5000-close-all.vi" Type="VI" URL="../adam-IO-VI/adam5000-close-all.vi"/>
-		<Item Name="adam5000-setup-visa.vi" Type="VI" URL="../adam-IO-VI/adam5000-setup-visa.vi"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
 		<Item Name="main-all-channels.vi" Type="VI" URL="../main-all-channels.vi"/>
 		<Item Name="main-dev.vi" Type="VI" URL="../main-dev.vi"/>
+		<Item Name="main-top-level-example.vi" Type="VI" URL="../main-top-level-example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
