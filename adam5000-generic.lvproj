@@ -12,52 +12,63 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="adam-module-controls" Type="Folder">
+			<Item Name="analog-input-cluster.ctl" Type="VI" URL="../controls/analog-input-cluster.ctl"/>
+			<Item Name="analog-output-cluster.ctl" Type="VI" URL="../controls/analog-output-cluster.ctl"/>
+			<Item Name="digital-output-cluster.ctl" Type="VI" URL="../controls/digital-output-cluster.ctl"/>
+			<Item Name="digitial-input-cluster.ctl" Type="VI" URL="../controls/digitial-input-cluster.ctl"/>
+			<Item Name="thermocouple-input-cluster.ctl" Type="VI" URL="../controls/thermocouple-input-cluster.ctl"/>
+		</Item>
+		<Item Name="adam-module-vi" Type="Folder">
+			<Item Name="adam-ALL-IOs-panel-no-references.vi" Type="VI" URL="../adam-IO-VI/adam-ALL-IOs-panel-no-references.vi"/>
+			<Item Name="adam-ALL-IOs-panel.vi" Type="VI" URL="../adam-IO-VI/adam-ALL-IOs-panel.vi"/>
+			<Item Name="adam-analog-input.vi" Type="VI" URL="../adam-IO-VI/adam-analog-input.vi"/>
+			<Item Name="adam-analog-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-analog-outputs.vi"/>
+			<Item Name="adam-digital-inputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-inputs.vi"/>
+			<Item Name="adam-digital-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-outputs.vi"/>
+			<Item Name="adam-thermocouple-input.vi" Type="VI" URL="../adam-IO-VI/adam-thermocouple-input.vi"/>
+		</Item>
 		<Item Name="adam5000-controls" Type="Folder">
+			<Item Name="adam-5000-all-chassis-data.ctl" Type="VI" URL="../controls/adam-5000-all-chassis-data.ctl"/>
+			<Item Name="adam-5000-all-module-datas.ctl" Type="VI" URL="../controls/adam-5000-all-module-datas.ctl"/>
 			<Item Name="adam-5000-AO-user-input.ctl" Type="VI" URL="../controls/adam-5000-AO-user-input.ctl"/>
+			<Item Name="adam-5000-chassis-cmd-ack.ctl" Type="VI" URL="../controls/adam-5000-chassis-cmd-ack.ctl"/>
 			<Item Name="adam-5000-chassis-module-types.ctl" Type="VI" URL="../controls/adam-5000-chassis-module-types.ctl"/>
 			<Item Name="adam-5000-cmd-response.ctl" Type="VI" URL="../controls/adam-5000-cmd-response.ctl"/>
 			<Item Name="adam-5000-DO-user-input.ctl" Type="VI" URL="../controls/adam-5000-DO-user-input.ctl"/>
-			<Item Name="adam-5000-status-indicator-references.ctl" Type="VI" URL="../controls/adam-5000-status-indicator-references.ctl"/>
-		</Item>
-		<Item Name="controls" Type="Folder">
-			<Item Name="adam-5000-all-chassis-data.ctl" Type="VI" URL="../controls/adam-5000-all-chassis-data.ctl"/>
-			<Item Name="adam-5000-all-module-datas.ctl" Type="VI" URL="../controls/adam-5000-all-module-datas.ctl"/>
-			<Item Name="adam-5000-chassis-cmd-ack.ctl" Type="VI" URL="../controls/adam-5000-chassis-cmd-ack.ctl"/>
 			<Item Name="adam-5000-module-cmd-ack.ctl" Type="VI" URL="../controls/adam-5000-module-cmd-ack.ctl"/>
 			<Item Name="adam-5000-serial-settings.ctl" Type="VI" URL="../controls/adam-5000-serial-settings.ctl"/>
+			<Item Name="adam-5000-status-indicator-references.ctl" Type="VI" URL="../controls/adam-5000-status-indicator-references.ctl"/>
 			<Item Name="adam-module-select-tab.ctl" Type="VI" URL="../controls/adam-module-select-tab.ctl"/>
-			<Item Name="analog-input-cluster.ctl" Type="VI" URL="../controls/analog-input-cluster.ctl"/>
-			<Item Name="analog-output-cluster.ctl" Type="VI" URL="../controls/analog-output-cluster.ctl"/>
-			<Item Name="command-enum.ctl" Type="VI" URL="../controls/command-enum.ctl"/>
-			<Item Name="digital-output-cluster.ctl" Type="VI" URL="../controls/digital-output-cluster.ctl"/>
-			<Item Name="digitial-input-cluster.ctl" Type="VI" URL="../controls/digitial-input-cluster.ctl"/>
-			<Item Name="state-enum.ctl" Type="VI" URL="../controls/state-enum.ctl"/>
-			<Item Name="thermocouple-input-cluster.ctl" Type="VI" URL="../controls/thermocouple-input-cluster.ctl"/>
 		</Item>
 		<Item Name="sub-vi" Type="Folder">
-			<Item Name="sub-sub-vi" Type="Folder">
-				<Item Name="adam-build-command-analog.vi" Type="VI" URL="../sub-vi/sub-sub-vi/adam-build-command-analog.vi"/>
-				<Item Name="adam-build-command-thermocouples.vi" Type="VI" URL="../sub-vi/sub-sub-vi/adam-build-command-thermocouples.vi"/>
-				<Item Name="adam-read-&amp;-parse-analog.vi" Type="VI" URL="../sub-vi/sub-sub-vi/adam-read-&amp;-parse-analog.vi"/>
-				<Item Name="adam-read-&amp;-parse-thermocouples.vi" Type="VI" URL="../sub-vi/sub-sub-vi/adam-read-&amp;-parse-thermocouples.vi"/>
+			<Item Name="depreciated" Type="Folder">
+				<Item Name="sub-sub-vi" Type="Folder">
+					<Item Name="adam-build-command-analog.vi" Type="VI" URL="../sub-vi/sub-sub-vi/adam-build-command-analog.vi"/>
+					<Item Name="adam-build-command-thermocouples.vi" Type="VI" URL="../sub-vi/sub-sub-vi/adam-build-command-thermocouples.vi"/>
+					<Item Name="adam-read-&amp;-parse-analog.vi" Type="VI" URL="../sub-vi/sub-sub-vi/adam-read-&amp;-parse-analog.vi"/>
+					<Item Name="adam-read-&amp;-parse-thermocouples.vi" Type="VI" URL="../sub-vi/sub-sub-vi/adam-read-&amp;-parse-thermocouples.vi"/>
+				</Item>
+				<Item Name="adam-5000-build-DO-cmd.vi" Type="VI" URL="../sub-vi/adam-5000-build-DO-cmd.vi"/>
+				<Item Name="adam-5000-command-builder.vi" Type="VI" URL="../sub-vi/adam-5000-command-builder.vi"/>
+				<Item Name="adam-5000-set-DO.vi" Type="VI" URL="../sub-vi/adam-5000-set-DO.vi"/>
+				<Item Name="adam-sample-analog.vi" Type="VI" URL="../sub-vi/adam-sample-analog.vi"/>
+				<Item Name="adam-sample-thermocouples.vi" Type="VI" URL="../sub-vi/adam-sample-thermocouples.vi"/>
+				<Item Name="parse-AI-string.vi" Type="VI" URL="../sub-vi/parse-AI-string.vi"/>
+				<Item Name="parse-temp-string.vi" Type="VI" URL="../sub-vi/parse-temp-string.vi"/>
+				<Item Name="read-&amp;-parse-visa.vi" Type="VI" URL="../sub-vi/read-&amp;-parse-visa.vi"/>
 			</Item>
-			<Item Name="adam-5000-build-DO-cmd.vi" Type="VI" URL="../sub-vi/adam-5000-build-DO-cmd.vi"/>
-			<Item Name="adam-5000-command-builder.vi" Type="VI" URL="../sub-vi/adam-5000-command-builder.vi"/>
-			<Item Name="adam-5000-set-DO.vi" Type="VI" URL="../sub-vi/adam-5000-set-DO.vi"/>
-			<Item Name="adam-sample-analog.vi" Type="VI" URL="../sub-vi/adam-sample-analog.vi"/>
-			<Item Name="adam-sample-thermocouples.vi" Type="VI" URL="../sub-vi/adam-sample-thermocouples.vi"/>
+			<Item Name="utility" Type="Folder">
+				<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
+				<Item Name="duty-cycle-oscillator.vi" Type="VI" URL="../sub-vi/duty-cycle-oscillator.vi"/>
+				<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../sub-vi/period-duty-time-high-low.vi"/>
+				<Item Name="scale-percent-to-mA.vi" Type="VI" URL="../sub-vi/scale-percent-to-mA.vi"/>
+			</Item>
 			<Item Name="AI-handler.vi" Type="VI" URL="../sub-vi/AI-handler.vi"/>
 			<Item Name="AO-handler.vi" Type="VI" URL="../sub-vi/AO-handler.vi"/>
-			<Item Name="average-loop-time.vi" Type="VI" URL="../sub-vi/average-loop-time.vi"/>
 			<Item Name="cmd-ack-rebundler.vi" Type="VI" URL="../sub-vi/cmd-ack-rebundler.vi"/>
 			<Item Name="DI-handler.vi" Type="VI" URL="../sub-vi/DI-handler.vi"/>
 			<Item Name="DO-handler.vi" Type="VI" URL="../sub-vi/DO-handler.vi"/>
-			<Item Name="duty-cycle-oscillator.vi" Type="VI" URL="../sub-vi/duty-cycle-oscillator.vi"/>
-			<Item Name="parse-AI-string.vi" Type="VI" URL="../sub-vi/parse-AI-string.vi"/>
-			<Item Name="parse-temp-string.vi" Type="VI" URL="../sub-vi/parse-temp-string.vi"/>
-			<Item Name="period-duty-time-high-low.vi" Type="VI" URL="../sub-vi/period-duty-time-high-low.vi"/>
-			<Item Name="read-&amp;-parse-visa.vi" Type="VI" URL="../sub-vi/read-&amp;-parse-visa.vi"/>
-			<Item Name="scale-percent-to-mA.vi" Type="VI" URL="../sub-vi/scale-percent-to-mA.vi"/>
 			<Item Name="TC-handler.vi" Type="VI" URL="../sub-vi/TC-handler.vi"/>
 			<Item Name="V3-adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/V3-adam-write-&amp;-check-response.vi"/>
 		</Item>
@@ -65,17 +76,12 @@
 			<Item Name="basic-adam-test.vi" Type="VI" URL="../test-vi/basic-adam-test.vi"/>
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
-		<Item Name="adam-ALL-IOs-panel.vi" Type="VI" URL="../adam-IO-VI/adam-ALL-IOs-panel.vi"/>
-		<Item Name="adam-analog-input.vi" Type="VI" URL="../adam-IO-VI/adam-analog-input.vi"/>
-		<Item Name="adam-analog-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-analog-outputs.vi"/>
-		<Item Name="adam-digital-inputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-inputs.vi"/>
-		<Item Name="adam-digital-outputs.vi" Type="VI" URL="../adam-IO-VI/adam-digital-outputs.vi"/>
-		<Item Name="adam-thermocouple-input.vi" Type="VI" URL="../adam-IO-VI/adam-thermocouple-input.vi"/>
-		<Item Name="adam5000-chassis-VI.vi" Type="VI" URL="../adam-IO-VI/adam5000-chassis-VI.vi"/>
+		<Item Name="adam5000-chassis-engineering-VI.vi" Type="VI" URL="../adam-IO-VI/adam5000-chassis-engineering-VI.vi"/>
+		<Item Name="adam5000-close-all.vi" Type="VI" URL="../adam-IO-VI/adam5000-close-all.vi"/>
+		<Item Name="adam5000-setup-visa.vi" Type="VI" URL="../adam-IO-VI/adam5000-setup-visa.vi"/>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
 		<Item Name="main-all-channels.vi" Type="VI" URL="../main-all-channels.vi"/>
 		<Item Name="main-dev.vi" Type="VI" URL="../main-dev.vi"/>
-		<Item Name="single-channel.vi" Type="VI" URL="../single-channel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
@@ -83,11 +89,12 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="analog-data-cluster.ctl" Type="VI" URL="../controls/analog-data-cluster.ctl"/>
 			<Item Name="analog-data-cluster.ctl" Type="VI" URL="../controls/depreciated/analog-data-cluster.ctl"/>
+			<Item Name="command-enum.ctl" Type="VI" URL="../controls/command-enum.ctl"/>
+			<Item Name="state-enum.ctl" Type="VI" URL="../controls/state-enum.ctl"/>
 			<Item Name="thermocouple-data-cluster.ctl" Type="VI" URL="../controls/thermocouple-data-cluster.ctl"/>
 			<Item Name="thermocouple-data-cluster.ctl" Type="VI" URL="../controls/depreciated/thermocouple-data-cluster.ctl"/>
 		</Item>
