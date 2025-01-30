@@ -48,6 +48,15 @@
 			<Item Name="adam-5000-status-indicator-references.ctl" Type="VI" URL="../controls/adam-5000-status-indicator-references.ctl"/>
 			<Item Name="adam-module-select-tab.ctl" Type="VI" URL="../controls/adam-module-select-tab.ctl"/>
 		</Item>
+		<Item Name="csv-file-logging" Type="Folder">
+			<Item Name="build-filepath.vi" Type="VI" URL="../sub-vi/csv-file-logging/build-filepath.vi"/>
+			<Item Name="csv-log-data-headings.vi" Type="VI" URL="../sub-vi/csv-file-logging/csv-log-data-headings.vi"/>
+			<Item Name="csv-log-data.vi" Type="VI" URL="../sub-vi/csv-file-logging/csv-log-data.vi"/>
+			<Item Name="data-logging-example.vi" Type="VI" URL="../sub-vi/csv-file-logging/data-logging-example.vi"/>
+			<Item Name="enable-ui-element.vi" Type="VI" URL="../sub-vi/csv-file-logging/enable-ui-element.vi"/>
+			<Item Name="filepath-selection.ctl" Type="VI" URL="../sub-vi/csv-file-logging/filepath-selection.ctl"/>
+			<Item Name="no-so-random-data-array-generator.vi" Type="VI" URL="../sub-vi/csv-file-logging/no-so-random-data-array-generator.vi"/>
+		</Item>
 		<Item Name="sub-vi" Type="Folder">
 			<Item Name="depreciated" Type="Folder">
 				<Item Name="sub-sub-vi" Type="Folder">
@@ -85,11 +94,16 @@
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
+		<Item Name="log-all-data.vi" Type="VI" URL="../sub-vi/log-all-data.vi"/>
 		<Item Name="main-all-channels.vi" Type="VI" URL="../main-all-channels.vi"/>
 		<Item Name="main-dev.vi" Type="VI" URL="../main-dev.vi"/>
 		<Item Name="main-top-level-example.vi" Type="VI" URL="../main-top-level-example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
