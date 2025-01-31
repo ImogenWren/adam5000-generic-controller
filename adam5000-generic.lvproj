@@ -14,8 +14,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="adam-high-level-VIs" Type="Folder">
 			<Item Name="adam5000-chassis-engineering-VI.vi" Type="VI" URL="../adam-IO-VI/adam5000-chassis-engineering-VI.vi"/>
-			<Item Name="adam5000-chassis-main.vi" Type="VI" URL="../adam-IO-VI/adam5000-chassis-main.vi"/>
 			<Item Name="adam5000-close-all.vi" Type="VI" URL="../adam-IO-VI/adam5000-close-all.vi"/>
+			<Item Name="adam5000-run-chassis.vi" Type="VI" URL="../adam-IO-VI/adam5000-run-chassis.vi"/>
 			<Item Name="adam5000-setup-visa.vi" Type="VI" URL="../adam-IO-VI/adam5000-setup-visa.vi"/>
 			<Item Name="adam5000-stop-visa.vi" Type="VI" URL="../adam-IO-VI/adam5000-stop-visa.vi"/>
 		</Item>
@@ -86,6 +86,7 @@
 			<Item Name="cmd-ack-rebundler.vi" Type="VI" URL="../sub-vi/cmd-ack-rebundler.vi"/>
 			<Item Name="DI-handler.vi" Type="VI" URL="../sub-vi/DI-handler.vi"/>
 			<Item Name="DO-handler.vi" Type="VI" URL="../sub-vi/DO-handler.vi"/>
+			<Item Name="log-all-data.vi" Type="VI" URL="../sub-vi/log-all-data.vi"/>
 			<Item Name="TC-handler.vi" Type="VI" URL="../sub-vi/TC-handler.vi"/>
 			<Item Name="V3-adam-write-&amp;-check-response.vi" Type="VI" URL="../sub-vi/V3-adam-write-&amp;-check-response.vi"/>
 		</Item>
@@ -94,7 +95,6 @@
 			<Item Name="test-single-adam-functions.vi" Type="VI" URL="../test-vi/test-single-adam-functions.vi"/>
 		</Item>
 		<Item Name="icon.ico" Type="Document" URL="../UI-graphics/icon.ico"/>
-		<Item Name="log-all-data.vi" Type="VI" URL="../sub-vi/log-all-data.vi"/>
 		<Item Name="main-all-channels.vi" Type="VI" URL="../main-all-channels.vi"/>
 		<Item Name="main-dev.vi" Type="VI" URL="../main-dev.vi"/>
 		<Item Name="main-top-level-example.vi" Type="VI" URL="../main-top-level-example.vi"/>
